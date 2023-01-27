@@ -11,7 +11,7 @@ int main()
 	printf("fibonacci sereies : %d,%d ",t1,t2);
 	for(i=3; i<=n; i++)
 	{
-	printf("%d,",a);
+	printf("%d",a);
 	t1=t2;
 	t2=a;
 	a=t1+t2;
